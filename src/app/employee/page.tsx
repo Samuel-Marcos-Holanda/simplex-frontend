@@ -1,6 +1,6 @@
 import Header from "@/components/header"
 
-export default function Login() {
+export default function Employee() {
   return (
     <Header />
   );

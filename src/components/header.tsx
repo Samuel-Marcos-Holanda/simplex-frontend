@@ -1,9 +1,18 @@
+import logo from "./logo.png"
+import icon from "./icon.svg"
+import Image from "next/image"
+
 export default function Header(){
     return(
-        <main className="w-screen h-screen">
-            <header className="bg-[#365486] w-full h-20 flex items-center px-5 justify-between">
-                <div className="flex">
-                    <h2 className="text-white text-3xl">Simple</h2><h2 className="text-red-600 text-3xl">X</h2>
+        <main>
+            <header>
+                <div className="bg-[#1B293F] w-full h-20 flex items-center px-8 justify-between">
+                  <Image width="80" src={logo} alt="loading"></Image>
+                  <div className="text-white flex items-center gap-x-5 font-">
+                    <p>about</p>
+                    <p>registe</p>
+                    <Image width="40" src={icon} alt="loading"></Image>
+                  </div>
                 </div>
             </header>
         </main>
