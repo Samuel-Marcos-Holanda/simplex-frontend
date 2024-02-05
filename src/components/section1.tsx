@@ -13,7 +13,7 @@ export default function Section1(){
                             GERENCIAMENTO MAIS <span className="text-[#1651AC] underline">SIMPLES!</span>
                         </p>
                     </div>
-                    <Image width="400" src={image} alt="loading" />"
+                    <Image width="400" src={image} alt="loading" />
                 </div>
             </section>
         </main>
